@@ -1,5 +1,6 @@
 #!/bin/bash
 #setup the nodejs telnet chat server
+#may need to change the curl url if it goes away
 
 echo "Downloading packages {nodejs and figlet}"
 sudo apt-get install nodejs
