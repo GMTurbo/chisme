@@ -1,0 +1,13 @@
+#!/bin/bash
+#setup the nodejs telnet chat server
+
+echo "Downloading packages {nodejs and figlet}"
+sudo apt-get install nodejs
+sudo apt-get install figlet
+
+echo "Downloading chat.js file to run"
+
+curl https://dl.dropboxusercontent.com/u/2493493/chat.js > chat.js
+
+echo "running server"
+sudo nodejs chat.js
